@@ -12,11 +12,11 @@ CASE SENSITIVE!!!!!!⚠️⚠️⚠️
 5. Go to the main folder (where you see libs, src, plugin.yml), right click, and open a terminal there.
 
 
-6. run javac -cp "libs/*" -d classes src\asher\plugin\*.java
+6. run (due to github limits this command is in the rar file as COMMANDS.txt)
 
 7. A folder called classes should appear.
 
-8. run jar cvf Asher.jar -C classes . plugin.yml
+8. run (due to github limits this command is in the rar file as COMMANDS.txt)
 
 There you go!
 your own admin gui.
