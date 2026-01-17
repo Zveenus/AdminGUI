@@ -37,5 +37,6 @@ grant op - yk
 
 remove abilites - deop and un-immortalizes
 
+it has a small cooldown (30sec) so your inventory won't bug out
 
 ENJOY!
