@@ -31,7 +31,7 @@ A admin gui /consolx includes
 
 tnt bomb - big boom
 
-immortality - cannot go past 0.5 hearts
+immortality - cannot go past 0.5 hearts even /kill cannot kill you
 
 grant op - yk
 
