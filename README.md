@@ -23,11 +23,18 @@ your own admin gui.
 
 FEATURES:
 Protected with your username so only you can run the commands
+
+
 Lets you remove normal overworld enemies with /AshClean
+
 A admin gui /consolx includes
+
 tnt bomb - big boom
+
 immortality - cannot go past 0.5 hearts
+
 grant op - yk
+
 remove abilites - deop and un-immortalizes
 
 
