@@ -1,7 +1,8 @@
-# Asher Admin GUI for Minecraft 1.21.11
+# Asher Admin GUI for Minecraft 1.21.11 [BETA]
 
 **Minecraft admin GUI** for Paper servers. Protects commands so only the owner can use them.
 
+**Expect very many bugs**⚠️
 ---
 
 ## Features
