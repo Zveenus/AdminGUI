@@ -44,6 +44,7 @@ javac -cp "libs/*" -d classes src\asher\plugin\*.java
 ```java
 jar cvf Asher.jar -C classes . plugin.yml
 ```
+I recommend deleting "classes" after "Asher.jar" appears.
 
 ## Enjoy your very own username protected plugin! 👍
 
