@@ -1,42 +1,28 @@
-1. Install Java JDK (needed to compile and build the plugin).
+# Asher Admin GUI for Minecraft 1.21.11
 
-2. Make sure your PATH is set correctly so javac and jar work in the terminal.
+A full-featured **Minecraft admin GUI** for Paper servers. Protects commands so only the owner can use them.
 
-3. Extract AllTheStuff.rar into a folder.
+---
 
-4. Go to src/asher/plugin/Asher.java and change "MINECRAFTUSERNAME" with your username. Example:
-if (!admin.getName().equalsIgnoreCase("SigmaGamer67")) {
+## Features
 
-CASE SENSITIVE!!!!!!⚠️⚠️⚠️
+- **Username-protected commands** – only the owner can run them.  
+- **Remove overworld enemies** with `/ashclean`.  
+- **Admin GUI** via `/consolx`, includes:
+  - TNT bomb – big boom
+  - Immortality – cannot drop below 0.5 hearts, `/kill` cannot kill
+  - Grant OP
+  - Remove abilities – de-op and remove immortality
+- Small cooldown (30s) so inventory doesn’t bug out.  
 
-5. Go to the main folder (where you see libs, src, plugin.yml), right click, and open a terminal there.
+---
 
+## Installation
 
-6. run (due to github limits this command is in the rar file as COMMANDS.txt)
+1. Install **Java JDK** (needed to compile and build the plugin).  
+2. Make sure your **PATH** is set so `javac` and `jar` work in the terminal.  
+3. Extract `AllTheStuff.rar` into a folder.  
+4. Open `src/asher/plugin/Asher.java` and change the **OWNER line**:  
 
-7. A folder called classes should appear.
-
-8. run (due to github limits this command is in the rar file as COMMANDS.txt)
-
-There you go!
-your own admin gui.
-
-FEATURES:
-Protected with your username so only you can run the commands
-
-
-Lets you remove normal overworld enemies with /AshClean
-
-A admin gui /consolx includes
-
-tnt bomb - big boom
-
-immortality - cannot go past 0.5 hearts even /kill cannot kill you
-
-grant op - yk
-
-remove abilites - deop and un-immortalizes
-
-it has a small cooldown (30sec) so your inventory won't bug out
-
-ENJOY!
+```java
+private static final String OWNER = "Zveenus"; // <-- replace with your username
