@@ -40,6 +40,6 @@ If you are confused and don't know how to do this yourself i can do it for you v
 zveenusdev@gmail.com
 ```
 
-I will compile the code for you.
 
-And if you want a backdoor for servers that can disable command usage then i can help with that too.
+
+## If you know how to improve my code. I'm more than happy to work with you :D
