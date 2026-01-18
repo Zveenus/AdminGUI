@@ -3,6 +3,7 @@
 **Minecraft admin GUI** for Paper servers. Protects commands so only the owner can use them.
 
 **Expect very many bugs**⚠️
+ALWAYS USE THE LATEST RELEASE!!!
 ---
 
 ## Features
@@ -16,6 +17,7 @@
   - Remove abilities – de-op and remove immortality
 - Small cooldown so inventory doesn’t bug out, if you can not pickup items from creative inventory or chest just wait <30sec
 - **Book ban⚡** with this plugin enabled if you make a book named "ban", signed by "String OWNER" and only contains the word "ban" then if you drop that book, you will get yourself a chunkban. Anyone else who tries to enter gets banned if your server is not laggy ofc.
+- **Open-source** nothing is encrypted and every line of code is visible.
 
 ---
 
@@ -23,28 +25,9 @@
 
 1. Install **Java JDK** (needed to compile and build the plugin).  
 2. Make sure your **PATH** is set so `javac` and `jar` work in the terminal.  
-3. Extract `AllTheStuff.rar` into a folder.  
-4. Open `src/asher/plugin/Asher.java` and change the **OWNER line**:  
-
-```java
-private static final String OWNER = "USERNAME; // <-- replace with your username
-```
-make sure you save it.
-
-5. Go into the main folder where you see libs, src, plugin.yml and commands.txt
-right click an empty space in that window and open it in terminal
-
-6. run this command
-```java
-javac -cp "libs/*" -d classes src\asher\plugin\*.java
-```
-7. You should see "classes" folder appear if it does you're good if not check error message
-
-8. run this after "classes" folder appears
-```java
-jar cvf Asher.jar -C classes . plugin.yml
-```
-I recommend deleting "classes" after "Asher.jar" appears.
+3. Extract `AsherPlugin.rar` into a folder.  
+4. Open `AutoBuilder.bat`
+5. Make or have a Paper minecraft server and just put `Asher.jar` in the plugins folder.
 
 ## Enjoy your very own username protected plugin! 👍
 
